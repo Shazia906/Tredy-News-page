@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+body{
+    padding: 0 2px;
+}
+.padding{
+   padding: 20px 5px;
+   max-width:1280px;
+   margin: 0 auto;
+}
+
+.padding-y{
+   padding: 30px 15px;
+}
+.pat{
+  margin-top: 50px;
+}
+.pab{
+  margin-bottom: 50px;
+}
