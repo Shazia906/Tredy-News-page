@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Commons/Nav";
-import Footer from '../Commons/Footer';
-import HomeCard from "../Commons/Cards";
-import Pagination from "../Commons/pagination";
+import Navbar from "../commons/Nav";
+import Footer from '../commons/Footer';
+import HomeCard from "../commons/Cards";
+import Pagination from "../commons/pagination";
 
 const News = [
   { id: 1, name: "Pakistan" },
