@@ -1,9 +1,9 @@
 
 import React, { useEffect, useState } from "react";
-import Navbar from "../commons/Nav";
-import Footer from "../commons/Footer";
-import HomeCard from "../commons/cards";
-import Pagination from "../commons/pagination";
+import Navbar from "../Commons/Nav";
+import Footer from "../Commons/Footer";
+import HomeCard from "../Commons/Cards";
+import Pagination from "../Commons/pagination";
 
 const categories = [
   { id: 1, name: "General" },
