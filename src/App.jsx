@@ -1,8 +1,8 @@
 
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import Home from './comoponents/sections/Home'
-// import Category from './comoponents/sections/Category'
+import Home from './comoponents/sections/Home'
+import Category from './comoponents/sections/Category'
 import './index.css'
 import PricingSection from './comoponents/sections/BestPlanForBuisness'
 
@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PricingSection/>}/>
-        {/* <Route path="/" element={<Home />} /> */}
-        {/* // <Route path="/category" element={<Category />} /> */}
+        <Route path="/price" element={<PricingSection/>}/>
+        <Route path="/" element={<Home/>} />
+         <Route path="/category" element={<Category />} />
       </Routes>
     </BrowserRouter>
   )
